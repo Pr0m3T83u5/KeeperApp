@@ -1,0 +1,25 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;   /* removes the default white space */
+  padding: 0;
+  background-color: #f1f1f1;
+}
+h1{
+  margin: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.note{
+  background-color: #FFFFFF;
+
+  margin: 20px;
+  padding: 10px;
+  height: 60px;
+  width: 220px;
+
+  border-radius: 10px;
+  box-shadow: 4px 4px 6px rgb(0,0,0,0.2);
+}
