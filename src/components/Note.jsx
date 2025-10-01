@@ -1,18 +1,18 @@
 import React from 'react';
 
-function Note(){
+function Note(props){
 
     //Styles
     var fontStyle = {
-        fontSize: "20px",
+        fontSize: "15px",
         fontFamily: "'Trebuchet MS', sans-serif",
     };
 
     //Return
     return (
         <div className="note">
-            <h1 style={fontStyle}>This is the note title</h1>
-            <p style={fontStyle}>this is the note content</p>
+            <h1 style={fontStyle}>{props.title}</h1>
+            <p style={fontStyle}>{props.content}</p>
         </div>
     )
 }

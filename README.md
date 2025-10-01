@@ -48,7 +48,7 @@ This is my third projet where I make a Google Keep-like App using React and Vite
    -->
 1. Clone the repo
    ```sh
-   git clone https://github.com/Pr0m3T83u5/My_Blogger1_Website
+   git clone https://github.com/Pr0m3T83u5/KeeperApp.git
    ```
 <!--
 4. Change git remote url to avoid accidental pushes to base project
